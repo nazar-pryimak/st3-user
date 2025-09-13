@@ -27,12 +27,15 @@
 
 
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
-  "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
+
+
+  "font_size": 10.5,
 
 
 
@@ -41,15 +44,17 @@
     // -0.2, 100,
     // 0, 100,
     // 31,
-    79,
-    91,
-    101,
+
+    // 79,
+    // 101,
+    // 161
   ],
   //   "draw_centered": true,
 
     "word_wrap": false,
-      "wrap_width": 91,
-  //     "wrap_width_style": "constant",
+      "wrap_width": 161,
+    // "wrap_width_style": "constant",
+    "wrap_width_style": "min",
 
   // "line_padding_top": -1,
   // "line_padding_bottom": -1,

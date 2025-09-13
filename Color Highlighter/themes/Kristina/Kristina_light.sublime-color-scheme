@@ -18,9 +18,13 @@
         // "backg": "#ECECEC",
         // "foreg": "#555555",
 
-        // "backg": "hsl(0, 0%, 90%)",
-        "backg": "hsl(0, 0%, 98%)",
-        "foreg": "hsl(0, 0%, 30%)",
+        "backg": "hsl(0, 0%, 100%)",
+
+        // "foreg": "hsl(0, 0%, 15%)",
+        "foreg": "hsl(0, 0%, 0%)",
+
+        // "backg": "hsl(0, 0%, 15%)",
+        // "foreg": "hsl(0, 0%, 98%)",
 
 
         "backg_dark": "color(var(backg) l(- 3%))",
@@ -75,6 +79,7 @@
         "pseudo_element_name": "hsl(183, 76%, 34%)",
         "pseudo_class_name": "hsl(121, 70%, 34%)",
 
+        "tag_name": "hsl(216, 76%, 60%)",
         // "tag_name": "hsl(183, 76%, 34%)",
         // "tag_name": "hsl(121, 70%, 34%)",
         // "tag_name": "hsl(121, 70%, 34%)",
@@ -119,8 +124,9 @@
 
         // "line_highlight": "var(backg)",
         "line_highlight": "#A0804026",
-        "gutter": "color(var(backg) l(- 3%)",
         // "gutter": "hsl(0, 0%, 88%)",
+        // "gutter": "color(var(backg) l(- 3%)",
+        "gutter": "var(backg)",
         // "caret": "#FFFF66",
         // "caret": "purple",
         "caret": "#00bbff",
@@ -129,7 +135,7 @@
         // "invisibles": "color(var(black) a(30%))",
         "invisibles": "color(var(backg) l(70%))",
 
-        "rulers": "color(var(backg) l(95%))",
+        // "rulers": "color(var(backg) l(95%))",
 
         "selection": "color(var(light) alpha(0.7))",
         // "selection_border": "color(var(light) l(- 20%))",
@@ -515,9 +521,10 @@
             "scope": "entity.name.tag",
             // "foreground": "var(black)",
             // "foreground": "var(green)",
-            "foreground": "var(blue)",
+            // "foreground": "var(blue)",
             // "background": "var(white)",
-            "font_style": "bold"
+            "foreground": "var(tag_name)",
+            "font_style": "bold",
         },
         {
             "name": "Punctuation - Tag",

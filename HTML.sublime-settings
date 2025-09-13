@@ -9,7 +9,7 @@
   // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
 
-  "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "Kristina_light.sublime-color-scheme",
 
 
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
@@ -36,4 +36,7 @@
   // "line_padding_top": 0,
   // "line_padding_bottom": 0,
 
+
+  // Gutter
+    // "gutter": false,
 }

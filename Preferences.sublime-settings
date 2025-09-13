@@ -1,9 +1,8 @@
 {"tab_colors": {},
 
-  // "color_scheme": "Monokai.sublime-color-scheme",
-  "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
   // "color_scheme": "Kristina_light.sublime-color-scheme",
-  // "color_scheme": "Mariana.sublime-color-scheme",
+  // "color_scheme": "Breakers.sublime-color-scheme",
+  "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Monokai.sublime-color-scheme",
 
 
@@ -75,13 +74,17 @@
 
   // "font_face": "Cascadia Mono",
   // "font_face": "Cascadia Code",
+  // "font_face": "Consolas",
 
-  "font_face": "Fira Code",
+  "font_face": "Google Sans Mono",
   // "font_face": "Fira Mono",
   // "font_face": "PT Mono",
 
+  /*"font_face": "Google Sans Mono",*/
 
-  "font_size": 11,
+
+  "font_size": 10,
+  // "font_size": 10.5,
 
 
 
@@ -103,21 +106,23 @@
 // LAYOUT
 "rulers": [
     // 81,
-    91,
+    // 91,
     101,
     111,
     121,
+    131,
+    141,
   ],
   // "draw_centered": true,
 
   // "word_wrap": "auto",
   "word_wrap": true,
-    "wrap_width": 121, // wraping borders width (wrap_width) + sets text's extrinsic size to #
-    "wrap_width_style": "constant",
-    // "wrap_width_style": "min",
+    "wrap_width": 141, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+    "wrap_width_style": "min",
+    /*"wrap_width_style": "min",*/
 
-  "line_padding_top": 1,
-  "line_padding_bottom": 1,
+  // "line_padding_top": 1,
+  // "line_padding_bottom": 1,
 
   // Layout components
     "reveal_menu": true,
@@ -126,7 +131,7 @@
     // Adaptive theme only: controls if a custom or default title bar is used.
     // Note that on Windows, the hamburger menu is used whenever this is
     // enabled and the adaptive theme is in use.
-    "themed_title_bar": false,
+    "themed_title_bar": true,
 
     // Controls the style of file tabs for the Default, Default Dark, and
     // Adaptive themes.
@@ -180,16 +185,15 @@
       // "margin": 300,
       // "margin": 200,
 
-      "margin": -5,
+      // "margin": -1,
 
 
     // Gutter
       "gutter": true,
-      // "gutter": false,
 
       "mini_diff": true,
 
-      "line_numbers": true,
+      "line_numbers": false,
 
       "fold_buttons": true,
       "fade_fold_buttons": true,
@@ -265,6 +269,7 @@
     "auto-save",
     "AutoFileName",
     "Chromeless",
+    "Emmet",
     "LiveReload",
     "LSP",
     "LSP-copilot",
@@ -407,6 +412,6 @@
   // Enable automatic folding of url parts of inline references or images
   "mde.auto_fold_link.enabled": true,
 
-  
+
   /*"index_files": true,*/
 }
